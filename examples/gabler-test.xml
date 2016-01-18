@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+	<letterinfo>
+		<sender>
+			<personname>Max Mustermann</personname>
+			<address>
+				<street>Heidestrasse 17</street>
+				<postcode>51147</postcode>
+				<city>Köln</city>
+				<phone>+49 123 456 7890</phone>
+				<fax>+49 123 4567 4711</fax>
+				<email>max@example.com</email>
+			</address>
+			<footer-info>
+				<para>
+				Bankverbindung: Bank in Köln, Kto 123
+				</para>
+			</footer-info>
+		</sender>
+		<recipient>
+			<orgname>Mustermann GmbH</orgname>
+			<personname>Erika Gabler</personname>
+			<address>
+				<street>Hauptstr. 12</street>
+				<postcode>45678</postcode>
+				<city>Musterstadt</city>
+				<country>Deutschland</country>
+			</address>
+		</recipient>
+
+		<date>17.01.2016</date>
+		<subjectterm>Test</subjectterm>
+		<salutation>Sehr geehrte Frau Gabler,</salutation>
+		<closing>Mit freundlichen Grüßen</closing>
+	</letterinfo>
+
+	<para>
+dies ist ein Test.
+	</para>
+</letter>

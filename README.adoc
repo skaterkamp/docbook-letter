@@ -1,0 +1,17 @@
+= Asciidoctor/Docbook Letter
+V0.8, Stefan Katerkamp <stefan@katerkamp.de>
+
+An approach to create DIN 5008 Form B letters from Asciidoctor or Docbook XML source.
+
+To test on a Debian system, install asciidoctor and docbook-xsl, then run
+
+ make
+ okular target/*.pdf
+
+When printing, make sure the pdf is printed full scale (100%).
+
+Result Examples:
+
+link:target/gabler-test.pdf[]
+
+link:target/ad-template.pdf[]
