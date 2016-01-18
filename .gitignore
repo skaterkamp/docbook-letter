@@ -6,8 +6,9 @@
 
 # maven noise
 #**/target
+!target/gabler-test.pdf
+!target/ad-template.pdf
 target
-!target/*.pdf
 
 # gradle noise
 .gradle
